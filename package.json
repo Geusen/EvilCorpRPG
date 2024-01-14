@@ -1,0 +1,15 @@
+{
+  "name": "themen_1",
+  "version": "1.0.0",
+  "description": "Prozedurale Programmierung",
+  "main": "src/08_funktionen_I.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

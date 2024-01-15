@@ -10,24 +10,29 @@ const Room3 = "Du bist in Raum 3 ";
 const Room4 = "Du bist in Raum 4 ";
 const Room5 = "Du bist in Raum 5 ";
 
+//console.log(Room1);       //const Tester Room1
 
 
 
-/***** Starter App  *****/                      //    Wichtig: Bedingung für start noch nicht gegeben
+/***** Starter App  *****/                      //    Wichtig: Bedingungen funktionieren nicht
+
 
 
 
 //     print = "Game Over"
+
+
 if (subHp == 0) {
     output("Der Traum ist aus!")
 } 
 else {
-    output(Room1 + ("   Deine HP betragen: ") + subHp(100, 100) + "/100      " + "Deine Mana liegt bei: " + subMana(500, 130) + "/500") 
+    output(Room1 + ("   Deine HP betragen: ") + subHp(100, 20) + "/100      " + "Deine Mana liegt bei: " + subMana(500, 130) + "/500"); 
 }
 
-// function getRoom() {
-// 	return parseInt(prompt("Zahl1?: "));
-// }
+
+//  function getRoom() {
+//  	return parseInt(prompt("Möchtest: "));
+//  }
 
 // function getNum2() {
 // 	return parseInt(prompt("Zahl2?: "));
@@ -40,16 +45,13 @@ else {
 // output(Room1 + ("   Deine HP betragen: ") + subHp(100, 20) + "/100      " + "Deine Mana liegt bei: " + subMana(500, 130) + "/500")
 
 
-//console.log(Room1);       //const Tester Room1
-
-
 
 //output(roomNr(100,20));   //function subHp test
 
 
-function roomNr(nowRoom, choosenRoom) {
-    return nowRoom + choosenRoom;
-}
+// function roomNr(nowRoom, choosenRoom) {
+//     return nowRoom + choosenRoom;
+// }
 
 
 

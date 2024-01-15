@@ -1,9 +1,18 @@
 const prompt = require('prompt-sync')({sigint: true});
 
+/***** Starter App  *****/                      //    Wichtig: Bedingung für start noch nicht gegeben
+// if (subHp == 0) {
+//     print = Game Over
+// } else {
+    
+// }
 
 
 /***** Raumzähler *****/
 //      roomNR 
+
+const Room1 = "Du bist in Raum 1";
+console.log(Room1);
 //output(roomNr(100,20)); //function subHp test
 
 

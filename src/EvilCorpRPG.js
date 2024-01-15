@@ -8,8 +8,8 @@
 /***** Mana Rechner *****/
 /*****  *****/
 /*****  *****/
-
-
+console.log("hi");
+/*
 
 const prompt = require('prompt-sync')({sigint: true});
 

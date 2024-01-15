@@ -26,9 +26,7 @@ function subHp(trueHp, damage) {
 
 /***** subtract *****/
 
-function sutract(a,b) {
-    return a - b;
-}
+
 
 
 

@@ -18,9 +18,26 @@ const Room5 = "Du bist in Raum 5 ";
 
 
 //     print = "Game Over"
+if (subHp == 0) {
+    output("Der Traum ist aus!")
+} 
+else {
+    output(Room1 + ("   Deine HP betragen: ") + subHp(100, 100) + "/100      " + "Deine Mana liegt bei: " + subMana(500, 130) + "/500") 
+}
 
+// function getRoom() {
+// 	return parseInt(prompt("Zahl1?: "));
+// }
 
-output(Room1 + ("   Deine HP betragen: ") + subHp(100, 20) + "/100      " + "Deine Mana liegt bei: " + submana(500, 130) + "/500")
+// function getNum2() {
+// 	return parseInt(prompt("Zahl2?: "));
+// }
+
+// function getOp() {
+// 	return prompt("OP?: ");
+// }
+
+// output(Room1 + ("   Deine HP betragen: ") + subHp(100, 20) + "/100      " + "Deine Mana liegt bei: " + subMana(500, 130) + "/500")
 
 
 //console.log(Room1);       //const Tester Room1
@@ -57,7 +74,7 @@ function subHp(trueHp, damage) {
 
 //output(submana(500,20)); //function subHp test
 
-function submana(trueMana, subMana) {
+function subMana(trueMana, subMana) {
     return trueMana - subMana;
 }
 

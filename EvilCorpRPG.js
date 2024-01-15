@@ -1,3 +1,16 @@
+/***** Raumzähler *****/
+//      roomNR 
+
+
+/***** HP Rechner *****/
+//      trueHp
+//      
+/***** Mana Rechner *****/
+/*****  *****/
+/*****  *****/
+
+
+
 const prompt = require('prompt-sync')({sigint: true});
 
 let starthP = parseFloat(100);
